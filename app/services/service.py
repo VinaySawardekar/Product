@@ -1,4 +1,4 @@
-from db import db
+from ..db import db
 import boto3
 from boto3.dynamodb.conditions import Key
 

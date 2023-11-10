@@ -5,7 +5,7 @@
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from services import service
+from .services import service
 
 app = FastAPI()
 
